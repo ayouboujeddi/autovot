@@ -6,13 +6,15 @@ position = [(1391, 983),(1247, 361),(1299, 491),(1265, 638),(1336, 790),(1114, 9
 time.sleep(5)
 
 
-email = 2142
+email = 2200
 
 while True:
     # time.sleep(1)
     # print(pyautogui.position())
     time.sleep(1)
     pyautogui.click(position[0][0], position[0][1])
+    time.sleep(1)
+    pyautogui.click(position[5][0],position[5][1])
     time.sleep(0.5)
     pyautogui.click(position[1][0], position[1][1])
     pyautogui.write('omari')
@@ -29,8 +31,6 @@ while True:
     print(email)
     pyautogui.write(text)
     time.sleep(0.5)
-    pyautogui.click(position[5][0],position[5][1])
-    time.sleep(5)
     pyautogui.click(position[6][0], position[6][1])
     
 
