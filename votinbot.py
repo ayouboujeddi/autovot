@@ -30,7 +30,7 @@ while True:
     email+=1
     print(email)
     pyautogui.write(text)
-    time.sleep(0.5)
+    time.sleep(1)
     pyautogui.click(position[6][0], position[6][1])
     
 
